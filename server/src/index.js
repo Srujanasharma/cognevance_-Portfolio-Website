@@ -36,7 +36,7 @@ app.get('/api/health', (request, response) => {
   const connected = mongoose.connection.readyState === 1;
   response.status(connected ? 200 : 503).json({
     status: connected ? 'ok' : 'degraded',
-    service: 'Raviteja Portfolio API',
+    service: 'Srujana Sharma Portfolio API',
     database: connected ? 'connected' : 'disconnected',
   });
 });

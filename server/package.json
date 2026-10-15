@@ -1,5 +1,18 @@
 {
-  "name":"raviteja-portfolio-server","private":true,"version":"1.0.0","type":"module",
-  "scripts":{"dev":"node --watch src/index.js","start":"node src/index.js"},
-  "dependencies":{"cors":"latest","dotenv":"latest","express":"latest","express-rate-limit":"latest","mongoose":"latest","helmet":"latest"}
+  "name": "srujana-portfolio-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "mongoose": "latest",
+    "helmet": "latest"
+  }
 }
